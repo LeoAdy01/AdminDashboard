@@ -1,0 +1,10 @@
+body{
+    background-color: #1d2a35;
+}
+
+#sidebar{
+    background-color: gray;
+    border-radius: 10px;
+    width: 350px;
+    height: 910px;
+}
