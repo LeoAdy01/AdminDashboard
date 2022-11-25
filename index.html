@@ -6,11 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Alatsi|Akshar|Almarai' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/d4aa8de0d9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="sidebar">
-        <div class="navbar"></div>
-        <div class="dashboard"></div>
+        <i class="fa-solid fa-layer-group"></i><h3 class="title-sidebar">Dashboard</h3>
+        <li>
+            <i class="fa-solid fa-house"></i><ul class="top-sidebar">Home</ul>
+            <i class="fa-regular fa-address-card"></i><ul class="top-sidebar">Profile</ul>
+            <i class="fa-solid fa-message"></i><ul class="top-sidebar messages">Messages</ul>
+            <i class="fa-solid fa-clock-rotate-left"></i><ul class="top-sidebar">History</ul>
+            <i class="fa-solid fa-list-check"></i><ul class="top-sidebar">Tasks</ul>
+            <i class="fa-solid fa-users"></i><ul class="top-sidebar communities">Communities</ul>
+        </li>
+        <li>
+            <i class="fa-solid fa-gear"></i><ul class="bottom-sidebar">Settings</ul>
+            <i class="fa-solid fa-circle-question"></i><ul class="bottom-sidebar">Support</ul>
+            <i class="fa-solid fa-shield-halved"></i><ul class="bottom-sidebar">Privacy</ul>
+        </li>
+    </div>
+    <div class="navbar">
+       <div class="searchbar left-side">
+           <label for="search-bar"><i class="fa-solid fa-magnifying-glass"></i></label>
+           <input type="text" id="search-bar">
+        </div>
+        <div class="right-side">
+            <i class="fa-solid fa-bell"></i>
+            <img src="picture.jpg" title="profile-picture" width="60px" height="60px" class="prof-pic">
+            <span class="user-name">Griffin Reynold</span>
+        </div>
+        <div class="navigation">
+            <img src="picture.jpg" title="profile-picture" width="90px" height="90px" class="prof-pic2">
+            <span class="hello-txt">Hi there,</span><br>
+            <span class="id-name">Griffin Reynold (@griffin)</span>
+        </div>
+        <div class="nav-right-side">
+          <div class="new-box">
+            <span class="new">New</span>
+        </div>
+        <div class="upload-box">
+            <span class="upload">Upload</span>
+        </div>
+        <div class="share-box">
+            <span class="share">Share</span>
+        </div>
+        </div>
+    </div>
+    <div class="dashboard">
+        <h3 class="proj">My Projects</h3>
+      <div class="grid">
+        <div class="container">
+            <h2 class="landing-page">Landing Page</h2>
+            <a href="https://leoady01.github.io/odin-landing/" target="_blank"><img src="landing.png" title="landing-page" width="350px" height="200px" class="landing-image"></a>
+            <span class="landing-description">A Landing Page Mock-Up written in CSS and HTML</span>
+        </div>
+        <div class="container">
+            <h2 class="sign-up-form">Sign-up Form</h2>
+            <a href="https://leoady01.github.io/Sign-up-Form/" target="_blank"><img src="sign-up.png" title="Sign-up-Form-page" width="350px" height="200px" class="sign-up-image"></a>
+            <span class="sign-up-description">A Sign-Up Form Mock-Up written in CSS and HTML</span>
+        </div>
+        <div class="container">
+            <h2 class="calculator-page">Calculator</h2>
+            <a href="https://leoady01.github.io/CalculatorProject/" target="_blank"><img src="calculator.png" title="calculator-page" width="350px" height="200px" class="calculator-image"></a>
+            <span class="calculator-description">An Calculator App written in JavaScript with an SVG display</span>
+        </div>
+        <div class="container">
+            <h2 class="etch-page">Etch-A-Sketch</h2>
+            <a href="https://leoady01.github.io/Etch-a-Sketch/" target="_blank"><img src="etch.png" title="Etch-A-Sketch-page" width="350px" height="200px" class="etch-image"></a>
+            <span class="etch-description">A Etch-A-Sketch Image Creation App written in JavaScript</span>
+        </div>
+      </div>
+      <div class="dashboard-right">
+        <h3 class="trendings">Trendings</h3>
+            <div class="trendings-container">
+              <div class="pic1-container">
+                <img src="picture.jpg" title="profile-picture" width="90px" height="90px" class="prof1-pic">
+                <span class="pic1-name">@griffin</span>
+                <span class="pic1-description">Super Cool Project</span>
+            </div>
+                <div class="pic2-container">
+                <img src="picture2.jpg" title="profile-picture" width="90px" height="90px" class="prof2-pic">
+                <span class="pic2-name">@morgan</span>
+                <span class="pic2-description">World Peace Builder</span>
+            </div>
+                <div class="pic3-container">
+                <img src="picture 3.jpg" title="profile-picture" width="90px" height="90px" class="prof3-pic">
+                <span class="pic3-name">@griffin</span>
+                <span class="pic3-description">No Traffic Maker</span>
+            </div>
+                <div class="pic4-container">
+                <img src="picture4.jpg" title="profile-picture" width="90px" height="90px" class="prof4-pic">
+                <span class="pic4-name">@griffin</span>
+                <span class="pic4-description">Life Changing App</span>
+            </div>
+            </div>
+      </div>
     </div>
 </body>
 </html>

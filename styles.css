@@ -5,6 +5,7 @@
 
 body{
     background-color: #a5a5a5;
+    overflow: hidden;
 }
 
 .sidebar{
@@ -13,10 +14,11 @@ body{
     height: 100%;
     position: absolute;
     top: 0;
+    color: rgb(206, 206, 206);
+    font-size: 2rem;
 }
 
 .dashboard{
-    width: 1605px;
     height: 100%;
     background-color: rgba(165, 165, 165, 0.8);
     position: absolute;
@@ -25,10 +27,499 @@ body{
 
 .navbar{
     width: 1605px;
-    height: 150px;
+    height: 210px;
     background-color: rgb(211, 208, 208);
     position: absolute;
-    left: 100%;
+    left: 16.4%;
     z-index: 1;
     box-shadow: 15px 0px 18px 4px rgb(100, 100, 100);
+}
+
+.title-sidebar{
+    position: absolute;
+    margin: 10px 0px 0px 69px;
+    top: 20px;
+    font-family: 'Alatsi';
+}
+
+.fa-house{
+    margin: 0;
+    position: relative;
+    left: 25px;
+    font-size: 25px;
+    top: 129px;
+}
+
+.fa-message{
+    margin: 0;
+    position: relative;
+    left: 25px;
+    font-size: 25px;
+    top: 133px;
+}
+
+.fa-users{
+    margin: 0;
+    position: relative;
+    left: 25px;
+    font-size: 25px;
+    top: 130px;
+}
+
+.fa-clock-rotate-left{
+    margin: 0;
+    position: relative;
+    left: 25px;
+    font-size: 25px;
+    top: 130px;
+}
+
+.fa-list-check{
+    margin: 0;
+    position: relative;
+    left: 25px;
+    font-size: 25px;
+    top: 130px;
+}
+
+.fa-regular{
+    margin: 0px;
+    position: relative;
+    font-size: 25px;
+    left: 25px;
+    top: 130px;
+}
+
+.fa-gear{
+    margin: 0px;
+    position: relative;
+    font-size: 25px;
+    left: 25px;
+    top: 182px;
+}
+
+.fa-shield-halved{
+    margin: 0px;
+    position: relative;
+    font-size: 25px;
+    left: 25px;
+    top: 182px;
+}
+
+.fa-circle-question{
+    margin: 0px;
+    position: relative;
+    font-size: 25px;
+    left: 25px;
+    top: 182px;
+}
+
+.fa-layer-group{
+    margin: 0px;
+    position: relative;
+    font-size: 30px;
+    top: 33px;
+    left: 25px;
+}
+
+.top-sidebar{
+    position: relative;
+    top: 105px;
+    margin: -10px 0px 0px 20px;
+    cursor: pointer;
+    width: 160px;
+    left: 5px;
+    font-family: 'Almarai';
+    font-size: 1.9rem;
+}
+
+.messages{
+    width: 200px;
+}
+
+.communities{
+    width: 240px;
+    left: 7px;
+}
+
+.bottom-sidebar{
+    position: relative;
+    top: 155px;
+    margin: -10px 0px 0px 20px;
+    cursor: pointer;
+    width: 180px;
+    left: 5px;
+    font-size: 1.9rem;
+    font-family: 'Almarai';
+}
+
+.top-sidebar:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.bottom-sidebar:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+input[type='text']{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    width: 95%;
+    background-color: white;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.searchbar{
+    width: 35%;
+    height: 45px;
+    background-color: white;
+    position: relative;
+    border-radius: 50px;
+    left: 110px;
+    top: 25px;
+}
+
+.fa-magnifying-glass{
+    font-size: 25px;
+    position: absolute;
+    left: -45px;
+    top: 10px;
+}
+
+.fa-bell{
+    font-size: 30px;
+    position: absolute;
+    left: 74.5%;
+    top: 30px;
+}
+
+.prof-pic{
+    border-radius: 50%;
+    position: absolute;
+    left: 80.5%;
+    top: 15px;
+}
+
+.user-name{
+    position: absolute;
+    top: 27px;
+    left: 86%;
+    font-family: 'Almarai';
+    font-size: 1.7rem;
+}
+
+.prof-pic2{
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+}
+
+.hello-txt{
+    font-family: 'Almarai';
+    font-size: 1.2rem;
+    position: absolute;
+    left: 12%;
+    top: 52%;
+}
+
+.id-name{
+    font-family: 'Almarai';
+    font-size: 1.7rem;
+    position: absolute;
+    left: 12%;
+    top: 62%;
+}
+
+.new-box{
+    background-color: rgba(0, 54, 90, 0.8);
+    width: 150px;
+    border-radius: 25px;
+    height: 50px;
+    position: relative;
+    left: 1000px;
+    top: 48px;
+    cursor: pointer;
+}
+
+.new{
+    position: relative;
+    left: 49px;
+    font-family: 'Almarai';
+    top: 10px;
+    font-size: 1.6rem;
+    color: rgb(206, 206, 206);
+}
+
+
+.upload-box{
+    background-color: rgba(0, 54, 90, 0.8);
+    width: 150px;
+    border-radius: 25px;
+    height: 50px;
+    position: relative;
+    left: 1200px;
+    top: -1px;
+    cursor: pointer;
+}
+
+.share-box{
+    background-color: rgba(0, 54, 90, 0.8);
+    width: 150px;
+    border-radius: 25px;
+    height: 50px;
+    position: relative;
+    left: 1400px;
+    top: -51px;
+    cursor: pointer;
+}
+
+.upload{
+    position: relative;
+    left: 35px;
+    font-family: 'Almarai';
+    font-size: 1.6rem;
+    top: 10px;
+    color: rgb(206, 206, 206);
+}
+
+.share{
+    position: relative;
+    font-family: 'Almarai';
+    left: 41px;
+    font-size: 1.6rem;
+    top: 10px;
+    color: rgb(206, 206, 206);
+}
+
+.new-box:hover, .share-box:hover, .upload-box:hover{
+    background-color: rgba(0, 54, 90, 1);
+}
+
+.proj{
+    position: absolute;
+    left: -1550px;
+    font-size: 1.6rem;
+    top: 25.5%;
+    font-family: 'Almarai';
+}
+
+.container{
+    background-color:rgb(211, 208, 208);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgb(100, 100, 100);
+    border-left: 5px solid rgba(0, 54, 90, 1);
+    font-family: 'Almarai'
+}
+
+.landing-image{
+    border-radius: 10px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    border: 3px solid rgba(0, 54, 90, 1);
+}
+
+.landing-page{
+    position: absolute;
+    left: 15.5%;
+    top: 1%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 280px 280px 280px;
+    row-gap: 40px;
+    column-gap: 40px;
+    position: absolute;
+    left: -1550px;
+    top: 32%;
+}
+
+.landing-description{
+    position: absolute;
+    left: 5%;
+    top: 27.5%;
+}
+
+.sign-up-form{
+    position: relative;
+    left: 34%;
+    top: 3.5%;
+}
+
+.sign-up-image{
+    border-radius: 10px;
+    border: 3px solid rgba(0, 54, 90, 1);
+    position: relative;
+    left: 10%;
+    top: 7%;
+}
+
+.sign-up-description{
+    position: absolute;
+    top: 27.5%;
+    left: 57.2%;
+}
+
+.calculator-page{
+    position: relative;
+    left: 34%;
+    top: 3.5%;
+}
+
+.calculator-image{
+    border-radius: 10px;
+    border: 3px solid rgba(0, 18, 31, 1);
+    position: relative;
+    left: 10%;
+    top: 7%;
+}
+
+.calculator-description{
+    position: absolute;
+    top: 62.5%;
+    left: 2.5%;
+}
+
+.etch-page{
+    position: relative;
+    left: 34%;
+    top: 3.5%;
+}
+
+.etch-image{
+    border-radius: 10px;
+    border: 3px solid rgba(0,18,31,1);
+    position: relative;
+    left: 10%;
+    top: 7%;
+}
+
+.etch-description{
+    position: absolute;
+    top: 62.5%;
+    left: 55.2%;
+}
+
+.trendings{
+    position: absolute;
+    left: -480px;
+    font-size: 1.6rem;
+    top: 25.5%;
+    font-family: 'Almarai';
+}
+
+.trendings-container{
+    width: 380px;
+    height: 600px;
+    background-color: rgb(211, 208, 208);
+    position: absolute;
+    top: 32%;
+    left: -480px;
+    border-radius: 20px;
+}
+
+.prof1-pic, .prof2-pic, .prof3-pic, .prof4-pic{
+    border-radius: 50%;
+}
+
+.prof1-pic{
+    position: relative;
+    left: 35px;
+    top: 55px;
+}
+
+.prof2-pic{
+    position: relative;
+    left: 35px;
+    top: 90px;
+}
+
+.prof3-pic{
+    position: relative;
+    left: 35px;
+    top: 135px;
+}
+
+.prof4-pic{
+    position: relative;
+    top: 180px;
+    left: 35px;
+}
+
+.pic1-name{
+    position: relative;
+    left: 75px;
+    top: -10px;
+    font-family: 'Almarai';
+    font-size: 1.4rem;
+}
+
+.pic2-name{
+    position: relative;
+    font-size: 1.4rem;
+    font-family: 'Almarai';
+    left: 75px;
+    top: 30px;
+}
+
+.pic3-name{
+    position: relative;
+    left: 75px;
+    top: 70px;
+    font-family: 'Almarai';
+    font-size: 1.4rem;
+}
+
+.pic4-name{
+    position: relative;
+    left: 75px;
+    top: 110px;
+    font-size: 1.4rem;
+    font-family: 'Almarai';
+}
+
+.pic1-description{
+    position: relative;
+    font-size: 1rem;
+    font-family: 'Almarai';
+    top: 25px;
+    color: rgb(39, 39, 39);
+}
+
+.pic2-description{
+        position: relative;
+        font-size: 1rem;
+        font-family: 'Almarai';
+        top: 67px;
+        left: -20px;
+        color: rgb(39, 39, 39);
+}
+
+.pic3-description{
+    position: relative;
+    font-size: 1rem;
+    font-family: 'Almarai';
+    top: 109px;
+    color: rgb(39, 39, 39);
+}
+
+.pic4-description{
+    position: relative;
+    font-size: 1rem;
+    font-family: 'Almarai';
+    top: 151px;
+    color: rgb(39, 39, 39);
+}
+
+.etch-image:hover, .calculator-image:hover, .landing-image:hover, .sign-up-image:hover{
+    transform: scale(1.04);
 }
